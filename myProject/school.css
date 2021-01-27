@@ -1,0 +1,245 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;   
+}
+.nav{
+    width:960px;
+    height:auto;
+    background:skyblue;
+}
+.nav ul li{
+    list-style: none;
+    display:inline-block;
+    position: relative;
+}
+.nav ul li a{
+    display: block;
+    padding:25px 40px;
+    font-size: 12px;
+    font-weight: bold;
+    color:lightyellow;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color:yellow;
+    background: pink;
+}
+.nav ul li ul{
+    position:absolute;
+    background: skyblue;
+    left:-9999px;
+}
+.nav ul li:hover ul{
+    left:0px;
+}
+.nav ul li ul li{
+    width:200px;
+    padding;1px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius:0;
+    text-align: left;
+}
+.banner-cover{
+    height:50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition:.9s;
+}
+.about-logo img{
+    width:250px;
+    height:auto;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 10px 0px;
+}
+.about-text{
+    width: 520px;
+    height:auto;
+    padding:0px 50px;
+}
+.about-text h2{
+    font-size:25px;
+    font-weight: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid skyblue;
+    margin-bottom: 20px;
+}
+.about-text p{
+    font-size: 16px;
+    color: gray;
+    line-height:22px;
+}
+.row{
+    overflow:auto;
+}
+.col{
+    float:left;
+}
+.about-section{
+    background:ghostwhite;
+    padding:40px 0px;
+    margin-top:20px;
+}
+.title{
+   width:220px;
+    height:auto;
+    margin: 0 auto;
+}
+.title h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin-bottom:30px;
+}
+.service{
+    width:280px;
+    height:auto;
+    border:2px solid #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.service h3{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom:10px;
+    text-transform:uppercase;
+}
+.service p{
+    font-size:15px;
+    color:white;
+    line-height:22px;
+    padding:0px 15px;
+}
+.service-section{
+    background:gray;
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+.serv-icon i{
+    font-size:40px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:hotpink;
+    transition: .5s;
+}
+.serv-icon i:hover{
+    color:pink;
+    transform:scale(.8);
+}
+
+.contact{
+    background: #fff;
+    padding: 15px 50px 15px 50px ;
+    box-shadow:0px 0px 10px #ccc;
+    width: 200px;
+    position:relative;
+    display: inline-block;
+    margin:0px 8px;
+}
+.cont-icon i{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    float: left;
+    top: 8px;
+    left: 15px;
+    background: #222;
+    text-align: center;
+    color:#fff;
+    line-height:35px;
+}
+.cont-icon i:hover{
+    color:yellow;
+    transform:.5s;
+}
+.cont-text{
+     width:200px;
+    height:auto;
+    padding:0px 4px;
+}
+.cont-text p{
+    padding:0;
+    margin:0;
+    font-size:20px;
+    line-height:22px;
+}
+.contact-section{
+    background: gray;
+   padding: 40px 0px;
+    margin-top: 20px;
+}
+.contact-from{
+    width: 420px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.inputTag input{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    width: 500px;
+    border: 0;
+    margin: 8px 0px;
+}
+
+.inputTag textarea{
+    width:500px;
+    height: 500px;
+}
+.inputTag button{
+   width:500px;
+    padding: 10px 0px;
+    background: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4px;
+    border: 0px;
+}
+.inputTag button:hover{
+    color:lightyellow;
+}
+
+footer{
+   width: 960px;
+    margin: 0 auto;
+    height: 40px;
+    background: black;
+    color: white;
+}
+.footer-icon{
+    float: right;
+}
+.footer-icon i{
+    font-size: 30px;
+    padding: 0px 10px;
+    transition: .5s;
+}
+.footer-icon i:hover{
+    color:PINK;
+    transform:scale(.8s);    
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 20px;
+     text-align: left;
+    position: absolute;
+    
+}
